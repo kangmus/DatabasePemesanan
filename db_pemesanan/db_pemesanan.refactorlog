@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="e5522396-5535-42f9-8033-c8cd323e4f1e" ChangeDateTime="10/16/2016 06:50:36">
+    <Property Name="ElementName" Value="[dbo].[Tb].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Kd_pemesan" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f1596bda-ba65-430a-91e1-cea70f4e2901" ChangeDateTime="10/16/2016 07:01:32">
+    <Property Name="ElementName" Value="[dbo].[Tb_Jabatan].[No_tepn]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tb_Jabatan]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="No_telpn" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4ddc450d-89a9-48ed-ae67-f51a9a7e215d" ChangeDateTime="10/16/2016 07:03:17">
+    <Property Name="ElementName" Value="[dbo].[Tb_jabatan].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tb_jabatan]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Kd_jabatan" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1bea9371-316d-4dbe-aac6-af91ed192403" ChangeDateTime="10/16/2016 07:21:26">
+    <Property Name="ElementName" Value="[dbo].[Tb_Menu].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tb_Menu]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_menu" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4d1cb6d1-b334-4fac-a385-385b5ca5ba6f" ChangeDateTime="10/16/2016 08:07:03">
+    <Property Name="ElementName" Value="[dbo].[TbKategori].[id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TbKategori]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="kd_kotegori" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="49c1acb2-9b36-4422-ab83-ae7f3bc3e60f" ChangeDateTime="10/16/2016 08:10:31">
+    <Property Name="ElementName" Value="[dbo].[TbKategori].[kd_kotegori]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TbKategori]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="kd_kategori" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="01b8cc2f-fdd3-4f60-ae2b-06b92eaf9355" ChangeDateTime="10/16/2016 08:18:51">
+    <Property Name="ElementName" Value="[dbo].[TbPegawai].[id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TbPegawai]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_pegawai" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e5980a24-4d98-4324-b65d-4b12950f92b8" ChangeDateTime="10/16/2016 08:24:55">
+    <Property Name="ElementName" Value="[dbo].[TbPemesanan].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TbPemesanan]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_menu" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e0ee8648-d002-44a6-adc9-381cdd6c2f4c" ChangeDateTime="10/16/2016 08:37:21">
+    <Property Name="ElementName" Value="[dbo].[TbDetailPemesanan].[kd_pemesan]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TbDetailPemesanan]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="kd_pemesanan" />
+  </Operation>
+</Operations>
